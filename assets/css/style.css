@@ -21695,3 +21695,119 @@ footer {
         margin-bottom: 0rem;
     }
 }
+
+
+
+/* footer code  */
+
+.footer {
+  background-color: #206046;
+  color: #206046 !important;
+  padding: 60px 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+  gap: 100px;              /* space between left, center, right sections */
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* ===== LEFT SECTION ===== */
+.footer-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-title {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+}
+
+/* ===== CENTER SECTION ===== */
+.footer-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer-center p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.footer-center i {
+  font-size: 18px;
+  color: white;
+}
+
+/* ===== RIGHT SECTION ===== */
+.footer-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-right h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  color: white;
+}
+
+/* ===== FLOATING CALL BUTTON ===== */
+.floating-call-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0094ff;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+}
+
+.floating-call-btn:hover {
+  background-color: #0077cc;
+}
+
+.floating-call-btn i {
+  font-size: 16px;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 992px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .footer-center {
+    align-items: center;
+  }
+
+  .footer-right h2 {
+    white-space: normal;
+  }
+}
