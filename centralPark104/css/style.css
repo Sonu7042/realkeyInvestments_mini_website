@@ -1438,7 +1438,7 @@ mainwrap header .navigation .right .headernav .mainnav ul li a span {
 	width: 100%;
 	float: left;
 	height: 100vh;
-	background-image: url(../images/webp/Commercial.webp);
+	background-image: url(.././central_park_img/Amenities/Commercial.webp);
 	background-size: cover !important
 }
 
@@ -1462,7 +1462,7 @@ mainwrap header .navigation .right .headernav .mainnav ul li a span {
 	width: 100%;
 	float: left;
 	height: 100vh;
-	background-image: url(../images/webp/Leasing.webp);
+	background-image: url(.././central_park_img/Amenities/Leasing.webp);
 	background-size: cover !important
 }
 
@@ -11559,8 +11559,9 @@ color: rgb(62, 62, 62);
 	}
 
 
-
-
+.video-wrap img{
+	width: 100% !important;
+}
 	
 
 
