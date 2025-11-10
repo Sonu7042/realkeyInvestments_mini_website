@@ -11562,6 +11562,42 @@ color: rgb(62, 62, 62);
 .video-wrap img{
 	width: 100% !important;
 }
+
+
+
+
+
+/* Disclaimer Footer */
+.contact-disclaimer {
+  margin-top: 110px;
+  padding: 15px 5%;
+  /* background: #144d35; */
+  /* border-top: 1px solid rgba(255, 255, 255, 0.2); */
+  text-align: center;
+}
+
+.contact-disclaimer p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+  opacity: 0.8;
+  margin: 0;
+  text-align: justify;
+}
+
+/* Responsive Adjustment */
+@media (max-width: 768px) {
+  .contact-disclaimer p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+
+.Disclaimer{
+	font-size: 16px;
+}
+
+
 	
 
 
