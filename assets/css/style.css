@@ -21923,6 +21923,7 @@ footer {
 .footer-disclaimer p{
   color: #e0e0e0;
   text-align: justify ;
+  font-size: 14px !important;
 
 }
 
@@ -21950,3 +21951,17 @@ footer {
     font-size: 16px;
   }
 }
+
+
+.footer-disclaimer p {
+  color: #e0e0e0;
+  text-align: justify;
+  font-size: 14px !important;
+  line-height: 1.8;
+}
+
+.footer-disclaimer strong {
+  color: #fff;
+  font-weight: 600;
+}
+
