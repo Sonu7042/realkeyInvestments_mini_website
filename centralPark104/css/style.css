@@ -11592,3 +11592,13 @@ color: rgb(62, 62, 62);
     height: 148px;
     object-fit: contain;
 }
+
+
+
+.mainwrap header .navigation .left .logo img {
+    width: 180px;
+    height: 101px;
+    object-fit: contain;
+    position: relative;
+    top: 5px;
+}
