@@ -1943,7 +1943,7 @@ span {
   padding: 100px 0 100px;
   position: relative;
 }
-.footer-wrapper::before {
+/* .footer-wrapper::before {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1953,7 +1953,7 @@ span {
   width: 2px;
   height: 100%;
   background-color: rgba(155, 155, 155, 0.24);
-}
+} */
 @media (max-width: 1199px) {
   .footer-wrapper::before {
     display: none;
@@ -8665,4 +8665,8 @@ span {
 .video-wrap img{
 	width: 100% !important;
 }
-	
+	   
+
+
+
+
