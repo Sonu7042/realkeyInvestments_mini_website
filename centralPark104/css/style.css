@@ -11620,8 +11620,6 @@ color: rgb(62, 62, 62);
 
 
 @media (min-width: 768px) {
-
-
 	.hero-container {
     position: absolute;
     z-index: 2;
@@ -11644,7 +11642,7 @@ color: rgb(62, 62, 62);
 		right: -517px;
 		z-index: 1;
 	}
-}
+	}
 
 
 
@@ -11654,10 +11652,10 @@ color: rgb(62, 62, 62);
     .reraNumbner {
         width: 733px;
         position: relative;
-        top: -253px;
+        top: -206px;
         color: white !important;
         font-size: 22px;
-        right: -484px;
+        right: -270px;
         z-index: 1;
     }
 }
@@ -11675,9 +11673,7 @@ color: rgb(62, 62, 62);
         right: -314px;
         z-index: 1;
     }
-	/* .hero-container{
-		margin-top:70px ;
-	} */
+	
 }
 
 
@@ -11689,6 +11685,19 @@ color: rgb(62, 62, 62);
 	}
 }
 
+
+
+@media (min-width: 1600px) {
+    .reraNumbner {
+        width: 733px;
+        position: relative;
+        top: -221px;
+        color: white !important;
+        font-size: 22px;
+        right: -509px;
+        z-index: 1;
+    }
+}
 
 
 
