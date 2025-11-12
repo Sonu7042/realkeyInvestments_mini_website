@@ -11602,3 +11602,97 @@ color: rgb(62, 62, 62);
     position: relative;
     top: 5px;
 }
+
+
+
+/* .hero-container {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1300px;
+    gap: 2rem;
+    margin-top: 82px !important;
+} */
+
+
+
+@media (min-width: 768px) {
+
+
+	.hero-container {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1300px;
+    gap: 2rem;
+    margin-top: 82px !important;
+}
+
+	
+	.reraNumbner {
+		width: 733px;
+		position: relative;
+		top: -253px;
+		color: white !important;
+		font-size: 22px;
+		right: -517px;
+		z-index: 1;
+	}
+}
+
+
+
+
+
+@media (min-width: 1024px) {
+    .reraNumbner {
+        width: 733px;
+        position: relative;
+        top: -253px;
+        color: white !important;
+        font-size: 22px;
+        right: -484px;
+        z-index: 1;
+    }
+}
+
+
+
+
+@media (max-width: 426px) {
+      .reraNumbner {
+        width: 733px;
+        position: absolute;
+        top: 100px;
+        color: white !important;
+        font-size: 15px;
+        right: -314px;
+        z-index: 1;
+    }
+	/* .hero-container{
+		margin-top:70px ;
+	} */
+}
+
+
+
+@media (max-width: 426px) {
+  
+	.hero-container{
+		margin-top:170px ;
+	}
+}
+
+
+
+
+
+.overlay{
+	/* display: none; */
+}
